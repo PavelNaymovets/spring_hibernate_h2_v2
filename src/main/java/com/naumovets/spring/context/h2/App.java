@@ -34,7 +34,7 @@ public class App {
                         System.out.println("Покупатель: " + cps.getCustomerById(id));
                         System.out.println("Продукты покупателя: " + cps.getCustomerProductsById(id));
                     } else {
-                        break;
+                        System.out.println("Введите слово PRODUCT или CUSTOMER и номер продукты или покупателя");
                     }
                 } else {
                     break;
