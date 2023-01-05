@@ -23,4 +23,12 @@ public class CustomerProductService {
     public List<Customer> getProductCustomersById(Long id) {
         return productDao.getCustomersListById(id);
     }
+
+    public Customer getCustomerById(Long id) {
+        return customerDao.findById(id);
+    }
+
+    public Product getProductById(Long id) {
+        return productDao.findById(id);
+    }
 }
