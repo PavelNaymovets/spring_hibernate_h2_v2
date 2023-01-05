@@ -20,7 +20,7 @@ public class App {
             while (true) {
                 String line = bf.readLine();
                 if (line != null) {
-                    
+
                 } else {
                     break;
                 }
