@@ -33,6 +33,8 @@ public class App {
                     } else if (productOrCustomer.equals("customer")) {
                         System.out.println("Покупатель: " + cps.getCustomerById(id));
                         System.out.println("Продукты покупателя: " + cps.getCustomerProductsById(id));
+                    } else if (productOrCustomer.equals("exit")) {
+                        break;
                     } else {
                         System.out.println("Введите слово PRODUCT или CUSTOMER и номер продукты или покупателя");
                     }
